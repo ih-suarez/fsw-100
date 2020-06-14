@@ -1,0 +1,27 @@
+.headline {
+    color: darkgreen;
+}
+.headline, h1 .headline, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.image, img {
+    float: left;
+    padding-left: 200px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.paragraph, p {
+    line-height: 25px;
+    padding-right: 190px;
+}
+#youMightAlsoLike {
+    text-transform: uppercase;
+}
+a:hover {
+    text-decoration: underline;
+}
+.ulist, .link {
+    padding-left: 390px;
+    padding-right: 190px;
+}
