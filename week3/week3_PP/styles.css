@@ -1,0 +1,20 @@
+header {
+    color: blue;
+}
+table, th, td, tr {
+    border: 1px solid black;
+}
+.table, th {
+    background-color: black;
+    color: white;
+}
+a:hover {
+    font-size: large;
+}
+.makeapp {
+    color: rgb(10, 145, 5);
+    padding-bottom: 5px
+}
+button {
+    padding-top: 1px;
+}
