@@ -1,4 +1,8 @@
+A {
+    text-decoration: none;
+} 
 .headline {
+
     color: darkgreen;
 }
 .headline, h1 .headline, h2 {
