@@ -39,8 +39,8 @@ html, body {
 }
 .blog {
     display: block;
-    border: 1px solid lightcyan;
-    background-color: lightcyan;
+    border: 1px solid rgba(255, 0, 0, 0.493);
+    background-color: rgba(255, 0, 0, 0.493);
     margin: 5%;
     padding: 8%;
     text-align: left;
