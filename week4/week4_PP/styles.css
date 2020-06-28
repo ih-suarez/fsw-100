@@ -1,0 +1,72 @@
+html, body {
+    margin: 2px;
+    padding: 1px;
+}
+.nav-bar {
+    display: block;
+    position: fixed;
+    border: 1px solid black;
+    background-color: skyblue;
+    border-radius: 3%;
+    padding: 3px;
+    transform: translate();
+    width: 96%;
+}
+.about {
+    display: inline-block;
+    position: relative;
+    left: 86%;
+    text-decoration: underline;
+}
+.mBlog {
+    display: inline-block;
+    position: relative;
+    left: 44%;
+    text-decoration: underline;
+}
+.home {
+    display: inline-block;
+    position: relative;
+    text-decoration: underline;
+}
+
+.blogs {
+    border: 5px solid lightsteelblue;
+    margin: 50px;
+    padding: 15px;
+    background-color: lightgrey;
+    height: 95%;
+}
+.blog {
+    display: block;
+    border: 1px solid lightcyan;
+    background-color: lightcyan;
+    margin: 5%;
+    padding: 8%;
+    text-align: left;
+}
+.img {
+    display: block;
+    height: 50%;
+    width: 40%;
+    float: left;
+    left: 3%;
+}
+.bheader, .bdate, .bcontent {
+    display: block;
+    position: relative;
+    padding-left: 47%;
+}
+h6 {
+    font-family: fantasy;
+    font-weight: lighter;
+}
+p {
+    font-size: 20px;
+    font-weight: 500;
+}
+h1 {
+    text-transform: capitalize;
+}
+
+
