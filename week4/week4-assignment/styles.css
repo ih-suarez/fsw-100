@@ -1,0 +1,51 @@
+
+.backgroundPic {
+    display: inline-block;
+    position: relative;
+    width: 102%;
+    height: 100%;
+    right: 1%;
+}
+header {
+    position: fixed;
+    border: 5px solid rgb(24, 167, 24); 
+    background-color: rgb(24, 167, 24);
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    right: 0%;
+    top: 0%;
+    color: ghostwhite;
+    text-decoration: transparent;
+}
+header > h1 {
+    position: absolute;
+    left: 40%;
+    padding-bottom: 4px;
+    font-family: fantasy;
+    font-style: italic;
+}
+.hImg {
+    width: 5%;
+    float: left;
+    padding-left: 2%;
+}
+.oCash {
+    position: absolute;
+    border: 3px solid white;
+    background-color: orangered;
+    padding: 5px;
+    margin-top: 3px;
+    width: 7%;
+    left: 89%;
+    color: yellow;
+    text-align: center;
+    -webkit-text-stroke: 1px yellow;
+}
+body {
+    background-image: url(img/IMG_0850.jpeg);
+}
+.navS {
+    position: fixed;
+    border: 5px solid red;
+}
