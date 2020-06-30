@@ -1,19 +1,18 @@
-html, body {
-    margin: 1px;
-    padding: 1px;
+html {
+    margin: 0;
 }
 .nav-bar {
-    display: block;
     position: fixed;
-    border: 1px solid black;
+    border: 5px solid skyblue; 
     background-color: skyblue;
-    border-radius: 3%;
-    margin: 0px;
-    padding: 3px;
-    transform: translate();
-    width: 50%;
-    left: 25%;
-    z-index: 3;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    right: 0%;
+    top: 0%;
+    color: indianred;
+    text-decoration: transparent;
+    z-index: 1;
 }
 .about {
     display: inline-block;
@@ -24,21 +23,25 @@ html, body {
 .mBlog {
     display: inline-block;
     position: relative;
-    left: 34%;
+    left: 39%;
     text-decoration: underline;
 }
 .home {
-    display: inline-block;
     position: relative;
     text-decoration: underline;
+    left: 50px;
 }
 
 .blogs {
     border: 5px solid lightsteelblue;
-    margin: 50px;
-    padding: 15px;
     background-color: lightgrey;
-    height: 95%;
+    width: auto;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+    right: 0%;
+    top: 0%;
+    margin-top: 20px;
 }
 .blog {
     display: block;

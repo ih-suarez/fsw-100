@@ -16,6 +16,7 @@ header {
     top: 0%;
     color: ghostwhite;
     text-decoration: transparent;
+    z-index: 1;
 }
 header > h1 {
     position: absolute;
@@ -43,26 +44,26 @@ header > h1 {
 body {
     background-image: url(img/IMG_0850.jpeg);
 }
-.navS {
+.siteI {
     display: block;
     position: absolute;
     border: 5px solid red;
     background-color: red;
     width: 16%;
-    
-    height: 55%;
-    z-index: 6;
-    bottom: 25%;
+    height: 59%;
+    bottom: 15%;
     left: 1%;
     text-align: center;
     color: white;
 }
-}
 .location {
     display: block;
     position: relative;
-    border: 2px solid white;
-
+    border: 2px solid white;   
+}
+.map {
+    color: white;
+    font-size: 40px;
 }
 #hTable {
     font-size: 40px;
@@ -72,14 +73,16 @@ body {
     display: block;
     position: relative;
     border: 2px solid white;
-
-}
-table, th, tr, td {
-    border: 3px solid white;
+    padding-bottom: 5px;
 }
 #hoursT {
+    margin-right: 19px;
     margin-left: 17px;
     margin-bottom: 5px;
+    padding-right: 15px;
+    border: 3px solid white;
+    background-color: rgb(24, 167, 24);
+ 
 }
 .ordertg {
     display: block;
@@ -93,4 +96,8 @@ table, th, tr, td {
 #phoneN {
     font-size: 20px;
     text-shadow: 2px black;
+}
+.addr {
+    font-style: italic;
+    font-weight: bold;
 }
