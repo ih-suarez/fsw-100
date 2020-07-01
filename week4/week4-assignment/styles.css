@@ -1,9 +1,15 @@
+html {
+    margin: 0;
+    top: 0;
+    right: 0;
+}
 .backgroundPic {
     display: inline-block;
-    position: relative;
-    width: 102%;
-    height: 100%;
-    right: 1%;
+    background-image: url(img/IMG_0850.jpeg);
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 header {
     position: fixed;
@@ -41,18 +47,145 @@ header > h1 {
     color: white;
     text-align: center;
 }
-body {
-    background-image: url(img/IMG_0850.jpeg);
+.nav {
+    position: fixed;
+    border: 5px solid rgb(238, 241, 7);
+    background-color: rgb(238, 241, 7);
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    right: 0%;
+    top: 8%;
+    color: black;
+    text-align: center;
+    z-index: 1;
+    text-decoration: underline;
 }
+#loca {
+    display: inline-block;
+    position: relative;
+    right: 20%;
+    text-decoration: underline;
+}
+#contact {
+    display: inline;
+    position: relative;
+    
+}
+#mission {
+    display: inline;
+    position: relative;
+    left: 20%;
+}
+
+
+.mainC {
+    display: block;
+    position: absolute;
+    border: 6px solid rgb(24, 167, 24);
+    background-color: rgba(231, 190, 7, 0.76) ;
+    opacity: 6;
+    width: 55%;
+    height: 75%;
+    bottom: 2%;
+    left: 20%;
+    text-align: center;
+}
+.breakF {
+    display: inline-block;
+    position: relative;
+    border: 2px solid white;
+    background-color: white;
+    text-align: left;
+    width: auto;
+    height: auto;
+    right: 6%;
+}
+#bfastH {
+    border: 1px solid rgb(24, 167, 24);
+    background-color: rgb(24, 167, 24);
+    font-style: oblique;
+    text-align: center;
+    color: rgb(238, 241, 7) ;
+    padding: 5px;
+    text-decoration: underline;
+}
+#english {
+    font-style: oblique;
+    font-style: italic;
+    color: gray;
+
+}
+.breakP {
+    display: inline-block;
+    position: relative;
+    border: 6px solid white;
+    background-color: white;
+    left: 6%;
+    width: auto;
+    height: 155px;
+}
+#platesH {
+    border: 1px solid rgb(24, 167, 24);
+    background-color: rgb(24, 167, 24);
+    font-style: oblique;
+    text-align: center;
+    padding: 5px;
+    color: rgb(238, 241, 7);
+    text-decoration: underline;
+}
+#platesR {
+    text-align: left;
+    font-size: medium;
+    line-height: 30px;    
+}
+#footer {
+    position: fixed;
+    border: 5px solid rgb(238, 241, 7); 
+    background-color: rgb(238, 241, 7);
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    right: 0%;
+    top: 93%;
+    color: black;
+    text-align: center;
+    z-index: 1;
+}
+#missionS {
+    position: absolute;
+    display: inline-block;
+    border: 5px solid rgba(231, 190, 7, 0.76);
+    background-color: rgb(24, 167, 24);
+    bottom: 17%;
+    left: 78%;
+    height: auto;
+    top: 40%;
+    right: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .siteI {
     display: block;
     position: absolute;
     border: 5px solid red;
     background-color: red;
     width: 16%;
-    height: 59%;
-    bottom: 15%;
-    left: 1%;
+    height: auto;
+    bottom: 10%;
+    bottom: 19%;
     text-align: center;
     color: white;
 }
@@ -96,6 +229,7 @@ body {
 #phoneN {
     font-size: 20px;
     text-shadow: 2px black;
+    text-decoration: underline;
 }
 .addr {
     font-style: italic;
