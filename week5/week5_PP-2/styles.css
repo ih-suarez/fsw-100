@@ -1,0 +1,206 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 25px;
+}
+header {
+    grid-column: 1 / -1;
+    grid-column: 1 / 0;
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+    text-align: center;
+    border-radius: 10px;
+}
+nav {
+    grid-column: 1 / -1;
+    grid-row: 2 / 2;
+    border: 1px solid darkorange;
+    background-color: darkorange;
+    text-align: center;
+    border-radius: 10px;
+}
+main {
+    grid-column: 1 / -1;
+    grid-row: 3 / 5;
+    border: 1px solid slateblue;
+    background-color: slateblue;
+    text-align: center;
+    border-radius: 10px;
+
+    justify-content: center;
+}
+section {
+    grid-column: 1 / -1;
+    grid-row: 5 / 6;
+    border: 1px solid tomato;
+    background-color: tomato;
+    text-align: center;
+    border-radius: 10px;
+}
+footer {
+    grid-column: 1 / -1;
+    grid-row: 6 / 7;
+    border: 1px solid purple;
+    background-color: purple;
+    text-align: center;
+    border-radius: 10px;
+}
+@media only screen and (min-width: 480px) {
+
+    #grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        grid-gap: 25px;
+    }
+    header {
+        grid-column: 1 / -1;
+        grid-column: 1 / 0;
+        border: 1px solid dodgerblue;
+        background-color: dodgerblue;
+        text-align: center;
+        border-radius: 10px;
+    }
+    nav {
+        grid-column: 1 / -1;
+        grid-row: 2 / 2;
+        border: 1px solid darkorange;
+        background-color: darkorange;
+        text-align: center;
+        border-radius: 10px;
+    }
+    main {
+        grid-column: 1 / -1;
+        grid-row: 3 / 5;
+        border: 1px solid slateblue;
+        background-color: slateblue;
+        text-align: center;
+        border-radius: 10px;
+    
+        justify-content: center;
+    }
+    section {
+        grid-column: 1 / -1;
+        grid-row: 5 / 6;
+        border: 1px solid tomato;
+        background-color: tomato;
+        text-align: center;
+        border-radius: 10px;
+    }
+    footer {
+        grid-column: 1 / -1;
+        grid-row: 6 / 7;
+        border: 1px solid purple;
+        background-color: purple;
+        text-align: center;
+        border-radius: 10px;
+    } 
+
+}
+
+@media only screen and (min-width: 800px) {
+
+    #grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        grid-gap: 25px;
+    }
+    header {
+        grid-column: 1 / -1;
+        grid-column: 1 / 0;
+        border: 1px solid dodgerblue;
+        background-color: dodgerblue;
+        text-align: center;
+        border-radius: 10px;
+    }
+    nav {
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+        border: 1px solid darkorange;
+        background-color: darkorange;
+        text-align: center;
+        border-radius: 10px;
+    }
+    main {
+        grid-column: 2 / -1;
+        grid-row: 2 / 4;
+        border: 1px solid slateblue;
+        background-color: slateblue;
+        text-align: center;
+        border-radius: 10px;
+    
+        justify-content: center;
+    }
+    section {
+        grid-column: 1 / -1;
+        grid-row: 4 / 4;
+        border: 1px solid tomato;
+        background-color: tomato;
+        text-align: center;
+        border-radius: 10px;
+    }
+    footer {
+        grid-column: 1 / -1;
+        grid-row: 5 / 5;
+        border: 1px solid purple;
+        background-color: purple;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 1300px) {
+    
+    #grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        grid-gap: 25px;
+    }
+    header {
+        grid-column: 1 / -1;
+        grid-column: 1 / 0;
+        border: 1px solid dodgerblue;
+        background-color: dodgerblue;
+        text-align: center;
+        border-radius: 10px;
+    }
+    nav {
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+        border: 1px solid darkorange;
+        background-color: darkorange;
+        text-align: center;
+        border-radius: 10px;
+    }
+    main {
+        grid-column: 2 / 4;
+        grid-row: 2 / 4;
+        border: 1px solid slateblue;
+        background-color: slateblue;
+        text-align: center;
+        border-radius: 10px;
+    
+        justify-content: center;
+    }
+    section {
+        grid-column: 4 / -1;
+        grid-row: 2 / 4;
+        border: 1px solid tomato;
+        background-color: tomato;
+        text-align: center;
+        border-radius: 10px;
+    }
+    footer {
+        grid-column: 1 / -1;
+        grid-row: 4 / 5;
+        border: 1px solid purple;
+        background-color: purple;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+}
