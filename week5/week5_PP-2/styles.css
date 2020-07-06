@@ -34,7 +34,7 @@ section {
     grid-column: 1 / -1;
     grid-row: 5 / 6;
     border: 1px solid tomato;
-    background-color: yellow;
+    background-color: tomato;
     text-align: center;
     border-radius: 10px;
 }
