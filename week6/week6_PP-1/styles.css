@@ -1,0 +1,86 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 8px;
+}
+#wHeader {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    border: 1px solid darkblue;
+    background-color: darkblue;
+    border-radius: 10px;  
+}
+#wHeader:hover {
+    background-color: turquoise;
+    color: yellow;
+    transition: background-color 2.5s ease-out;
+}
+#wNav {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    border: 1px solid tomato;
+    background-color: tomato;
+    border-radius: 10px;
+}
+#wNav:hover { 
+    grid-column: 1 / 2;
+    border: 20px solid thistle;
+    transition: border-radius 1s;
+    
+}
+#wMenu {
+    grid-column: 6 / -1;
+    grid-row: 2 / 8;
+    border: 1px solid rebeccapurple;
+    background-color: rebeccapurple;
+    border-radius: 10px;
+}
+#wMenu:hover {
+    text-align: center;
+    border-radius: 70%;
+    opacity: 70%;
+    
+}
+#wOrder-tg {
+    grid-column: 3 / 6;
+    grid-row: 2 / 3;
+    border: 1px solid powderblue;
+    background-color: powderblue;
+    border-radius: 10px;
+}
+#wOrder-tg:hover {
+    text-align: center;
+    padding: 50px 10px 50px;
+    
+}
+#wHours {
+    grid-column: 1 / 6;
+    grid-row: 3 / 8;
+    border: 1px solid peru;
+    background-color: peru;
+    border-radius: 10px;
+}
+#wHours:hover {
+    box-shadow: 5px 5px 5px inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    
+}
+#wFooter {
+    grid-column: 1 / -1;
+    grid-row: 8 / 9;
+    border: 1px solid cadetblue;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+#wFooter:hover {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    grid-column: 1 / 6;
+}
