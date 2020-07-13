@@ -13,6 +13,7 @@
     border: 1px solid green;
     background-color: green;
     color: rgb(206, 205, 205);  
+    font-family: 'Dancing Script';
 }
 .hImg {
     width: 100px;
@@ -63,8 +64,6 @@
     background-color: rgb(240, 217, 17);
     text-decoration: underline;
 }
-
-
 #wHours {
     display: flex;
     flex-wrap: wrap;
@@ -110,7 +109,6 @@ table {
 th {
     border: 1px solid tomato;
     background-color: tomato;
-    
 }
 
 
