@@ -105,6 +105,7 @@ table {
     background-color: white;
     margin: 10px;
     width: 250px;
+    height: 200px;
 }
 th {
     border: 1px solid tomato;

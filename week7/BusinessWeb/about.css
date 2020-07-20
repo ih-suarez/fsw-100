@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 191, 18);
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+}
+.gridC {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(40, 50px);
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / -1;
+    grid-row: 1 / 3;
+    border: 2px solid tomato;
+    background-color: tomato;
+}
+@media only screen and (min-width: 765px) {
+    header {
+        grid-row: 1 / 4;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    header {
+        justify-content: flex-start;
+        grid-row: 1 / 4;
+    }
+}
+#mt {
+    display: none;
+}
+@media only screen and (min-width: 1200px) {
+    #mt {
+        flex-direction: column;
+        display: block;    
+    }
+}
+#headImg {
+    display: block;
+    width: 100px;
+    border: 1px thin white;
+    margin: 10px;
+    border-radius: 20%;
+}
+@media only screen and (min-width:n 1200px) {
+    #headImg {
+        width: 250px;
+    }
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+    border: 2px solid rgb(41, 191, 18);
+    background-color: rgb(41, 191, 18);
+    color: whitesmoke;
+}
+@media only screen and (min-width: 765px) {
+    nav {
+        grid-row: 4 / 5;
+    }
+}
+@media only screen and (min-width: 1200) {
+    nav {
+        grid-row: 4 / 6;
+    }
+}
+#medranosT {
+    border: 2px solid dodgerblue;
+    background-color: dodgerblue;
+    padding: 14px;
+    text-decoration: none;
+    color: snow;
+}
+#medranosT:hover {
+    border: 2px solid cadetblue;
+    background-color: cadetblue;
+}
+#nAbout {
+    border: 2px solid dodgerblue;
+    background-color: dodgerblue;
+    padding: 14px;
+    text-decoration: none;
+    color: snow;
+}
+#nAbout:hover {
+    border: 2px solid cadetblue;
+    background-color: cadetblue;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-column: 1 / -1;
+    grid-row: 4 / 12;
+    border: 2px solid tomato;
+    background-color: tomato;
+}
+@media only screen and (min-width: 765px) {
+    main {
+        grid-row: 5 / 14;
+        font-size: 24px;
+    }
+}
+@media only screen and (min-width: 1200) {
+    main {
+        grid-row: 6 / 12;
+    }
+}
+footer {
+    display: flex;
+    justify-content: center;
+    grid-column: 1 / -1;
+    grid-row: 12 / 13;
+    border: 20x solid dodgerblue;
+    background-color: dodgerblue;
+}
+@media only screen and (min-width: 765px) {
+    footer {
+        grid-row: 14 / 16;
+    }
+}
+@media only screen and (min-width: 1200) {
+    footer {
+        grid-row: 12 / 13;
+    }
+}
